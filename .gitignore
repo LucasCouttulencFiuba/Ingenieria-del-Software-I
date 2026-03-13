@@ -1,0 +1,36 @@
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Cuis / Squeak unnecessary folders
+# =========================
+CoreUpdates/
+Documentation/
+Packages/
+TrueTypeFonts/
+
+# Mac VM (not needed on Windows)
+CuisVM.app/
+
+# =========================
+# Cuis utility scripts (not needed)
+# =========================
+clonePackageRepos.sh
+pullAllRepos.sh
+
+# =========================
+# Documentation
+# =========================
+TheCuisBook.pdf
+
+# =========================
+# Temporary / editor files
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+*~

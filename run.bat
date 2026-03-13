@@ -1,0 +1,1 @@
+vmLiveTyping\squeak %1

@@ -1,0 +1,82 @@
+; x86_64-w64-mingw32-dlltool --input-def Squeak.def.in --output-def build/vm/Squeak.def --output-exp build/vm/Squeak.exp --output-lib build/vm/Squeak.lib build/vm/cointerp.o build/vm/cogit.o build/vm/sqWin32Alloc.o build/vm/sqWin32Backtrace.o build/vm/sqWin32DirectInput.o build/vm/sqWin32DnsInfo.o build/vm/sqWin32Exports.o build/vm/sqWin32ExternalPrims.o build/vm/sqWin32GUID.o build/vm/sqWin32Heartbeat.o build/vm/sqWin32Main.o build/vm/sqWin32PluginSupport.o build/vm/sqWin32Prefs.o build/vm/sqWin32Service.o build/vm/sqWin32SpurAlloc.o build/vm/sqWin32Stubs.o build/vm/sqWin32Threads.o build/vm/sqWin32Time.o build/vm/sqWin32Utils.o build/vm/sqWin32VMProfile.o build/vm/sqWin32Window.o build/vm/version.o build/vm/sqExternalSemaphores.o build/vm/sqHeapMap.o build/vm/sqNamedPrims.o build/vm/sqPath.o build/vm/sqTextEncoding.o build/vm/sqTicker.o build/vm/sqVirtualMachine.o
+EXPORTS
+	warninginat @ 1
+	deviceChangeCount @ 2 DATA
+	displayBits @ 3 DATA
+	displayDepth @ 4 DATA
+	displayHeight @ 5 DATA
+	displayWidth @ 6 DATA
+	error @ 7
+	getImageName @ 8
+	getSTWindowHandle @ 9
+	moduleUnloaded @ 10
+	primitiveAddLargeIntegers @ 11
+	primitiveAllInstances @ 12
+	primitiveAllObjects @ 13
+	primitiveBitAndLargeIntegers @ 14
+	primitiveBitOrLargeIntegers @ 15
+	primitiveBitShiftLargeIntegers @ 16
+	primitiveBitXorLargeIntegers @ 17
+	primitiveBytecodeSetsAvailable @ 18
+	primitiveClockLogAddresses @ 19
+	primitiveCompareBytes @ 20
+	primitiveCompareWith @ 21
+	primitiveCrashVM @ 22
+	primitiveDisablePowerManager @ 23
+	primitiveDivLargeIntegers @ 24
+	primitiveDivideLargeIntegers @ 25
+	primitiveDnsInfo @ 26
+	primitiveEqualLargeIntegers @ 27
+	primitiveEventProcessingControl @ 28
+	primitiveExternalCallNoOp @ 29
+	primitiveFastCNoOp @ 30
+	primitiveFastCNoOpAlignedForFloats @ 31
+	primitiveGetLogDirectory @ 32
+	primitiveGetWindowLabel @ 33
+	primitiveGetWindowSize @ 34
+	primitiveGetenv @ 35
+	primitiveGreaterOrEqualLargeIntegers @ 36
+	primitiveGreaterThanLargeIntegers @ 37
+	primitiveHeartbeatFrequency @ 38
+	primitiveHighResClock @ 39
+	primitiveImageFormatVersion @ 40
+	primitiveInterruptChecksPerMSec @ 41
+	primitiveIsBigEnder @ 42
+	primitiveIsWindowObscured @ 43
+	primitiveLessOrEqualLargeIntegers @ 44
+	primitiveLessThanLargeIntegers @ 45
+	primitiveMethodPCData @ 46
+	primitiveMillisecondClockMask @ 47
+	primitiveMinimumUnusedHeadroom @ 48
+	primitiveModLargeIntegers @ 49
+	primitiveMultipleBytecodeSetsActive @ 50
+	primitiveMultiplyLargeIntegers @ 51
+	primitiveNotEqualLargeIntegers @ 52
+	primitivePathToUsing @ 53
+	primitivePluginBrowserReady @ 54
+	primitivePluginDestroyRequest @ 55
+	primitivePluginPostURL @ 56
+	primitivePluginRequestFileHandle @ 57
+	primitivePluginRequestState @ 58
+	primitivePluginRequestURL @ 59
+	primitivePluginRequestURLStream @ 60
+	primitiveProfilePrimitive @ 61
+	primitiveProfileSample @ 62
+	primitiveProfileSemaphore @ 63
+	primitiveProfileStart @ 64
+	primitiveQuoLargeIntegers @ 65
+	primitiveRemLargeIntegers @ 66
+	primitiveScreenDepth @ 67
+	primitiveScreenScaleFactor @ 68
+	primitiveSetGCSemaphore @ 69
+	primitiveSetLogDirectory @ 70
+	primitiveSetWindowLabel @ 71
+	primitiveSetWindowSize @ 72
+	primitiveSubtractLargeIntegers @ 73
+	primitiveSuspendBackingUpV2 @ 74
+	primitiveUtcWithOffset @ 75
+	primitiveVoidReceiver @ 76
+	sendWheelEvents @ 77 DATA
+	warning @ 78
+	warningat @ 79
+	convertToSqueakTime @ 80
